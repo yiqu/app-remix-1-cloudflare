@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useEffect, useState } from "react";
 import { productSchema } from "~/constants/schemas";
-import { LoaderArgs, redirect, type ActionArgs } from "@remix-run/node";
+import { LoaderArgs, redirect, type ActionArgs } from "@remix-run/cloudflare";
 import { Form, useSubmit, useNavigation, useLoaderData } from "@remix-run/react";
 import type { ProductFire } from "~/models/products.model";
 import ProductList from "./ProductList";

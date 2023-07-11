@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material";
-import type { V2_MetaFunction } from "@remix-run/node";
+import type { V2_MetaFunction } from "@remix-run/cloudflare";
 import { Link, NavLink, Outlet } from "@remix-run/react";
 import type { NavItem } from "~/shared/models/nav.model";
 

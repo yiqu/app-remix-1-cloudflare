@@ -2,8 +2,8 @@ import { Stack } from "@mui/material";
 import { Link, NavLink, Outlet } from "@remix-run/react";
 import type { NavItem } from "~/shared/models/nav.model";
 import type { Product } from "~/components/Products";
-import type { LoaderArgs, redirect, ActionArgs } from "@remix-run/node";
-import { json } from "@remix-run/node"; // or cloudflare/deno
+import type { LoaderArgs, redirect, ActionArgs } from "@remix-run/cloudflare";
+import { json } from "@remix-run/cloudflare"; // or cloudflare/deno
 import GenericErrorPage from "~/components/GenericErrorPage";
 import type { FirebaseResponse, FirebaseResult} from "~/api/fetch";
 import { fetchGet } from "~/api/fetch";

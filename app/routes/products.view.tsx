@@ -1,5 +1,5 @@
 import { Button, DialogContent, Stack } from "@mui/material";
-import type { ActionArgs } from "@remix-run/node";
+import type { ActionArgs } from "@remix-run/cloudflare";
 import { useNavigation, useSearchParams } from "@remix-run/react";
 import { useEffect, useState } from "react";
 import { productionCreateAction } from "~/api/Product.action";

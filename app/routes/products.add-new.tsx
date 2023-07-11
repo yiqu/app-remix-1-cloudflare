@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material";
-import type { ActionArgs } from "@remix-run/node";
+import type { ActionArgs } from "@remix-run/cloudflare";
 import { productionCreateAction } from "~/api/Product.action";
 import ProductList from "~/components/ProductList";
 import Products from "~/components/Products";
